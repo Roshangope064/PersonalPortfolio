@@ -8,6 +8,9 @@ import StatisticsLogo from '../src/assets/Skills/Statistics.png'
 import TableauLogo from '../src/assets/Skills/Tableau.png'
 import AwsLogo from '../src/assets/Skills/Aws.png'
 import LoanAnalysisProfilePIcture from '../src/assets/Projects_Images/LoanProjectProfile.png'
+import RenewableEnergyProfilePIcture from '../src/assets/Projects_Images/RenewableEnergy.png'
+import AgricultureProfilePIcture from '../src/assets/Projects_Images/AgricultureProject.png'
+
 
 //--------------------------------------------------------------
 import StoryTellingLogo from '../src/assets/Skills/StoryTelling.png'
@@ -86,5 +89,23 @@ export const projects = [
     tags: ["Microsoft Sql Server","Microsoft Fabric (Dataflow Gen1)","Data Modeling & ETL","DAX","Power BI Desktop"],
     // github: "",
     fabriclink: "https://app.fabric.microsoft.com/links/-VBoS1okuv?ctid=4cd4cf7a-dd63-42c5-84ae-7a78944c55e9&pbi_source=linkShare",
+  },
+  {
+    id: 1,
+    title: "Renewable Energy Consumption: End-to-End Cloud Data Pipeline and Dashboard ",
+    description:"Successfully architected and implemented a robust data pipeline to analyze global renewable energy trends. This project involved migrating raw data from AWS S3 into Snowflake via secure IAM integration, and ultimately visualizing key insights in Tableau.",
+    image: RenewableEnergyProfilePIcture,
+    tags: ["Cloud Storage & Security (AWS) ","Data Warehousing & Integration (Snowflake)"," Interactive Analytics (Tableau)","DAX","Power BI Desktop"],
+    // github: "",
+    fabriclink: "https://www.linkedin.com/in/roshan-gope-21228a247/details/projects/",
+  },
+  {
+    id: 2,
+    title: "🌾 End-to-End Agricultural Data Analytics Pipeline: From Cloud Storage to Insightful Dashboards 🚀",
+    description:"Successfully architected and implemented  a comprehensive data analytics project that bridges the gap between raw cloud storage and actionable business intelligence in the Agriculture Sector. This project showcases a full-scale integration of AWS, Snowflake, and Power BI.",
+    image: AgricultureProfilePIcture,
+    tags: [" AWS (S3, IAM)","Snowflake (SQL, External Stages, Integrations)","SQL","Power BI Desktop"],
+    // github: "",
+    fabriclink: "https://www.linkedin.com/feed/update/urn:li:activity:7437564355933540352/",
   },
 ]
